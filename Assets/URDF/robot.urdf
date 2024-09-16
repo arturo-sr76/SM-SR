@@ -1,0 +1,1113 @@
+<?xml version="1.0"?>
+<robot name="quadruped_robot">
+<link name="world"/>
+<joint name="world_to_sujiaojian" type="fixed">
+  <parent link="world"/>
+  <child link="sujiaojian"/>
+  <origin xyz="0 0 -0.4" rpy="0.349066 0.174533  0"/>
+</joint>
+<link name="sujiaojian">
+<visual>
+<origin xyz="0.075992826552716899458 -0.12304598517526418866 0.75838709638582291195" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/sujiaojian.stl"/>
+</geometry>
+<material name="sujiaojian_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.075992826552716899458 -0.12304598517526418866 0.75838709638582291195" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/sujiaojian.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_800.stl"/>
+</geometry>
+<material name="_800_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_800.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1900.stl"/>
+</geometry>
+<material name="_1900_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1900.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.045475282385517123984 -0.28587248451122720949 0.59472170711924576825" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1200.stl"/>
+</geometry>
+<material name="_1200_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.045475282385517123984 -0.28587248451122720949 0.59472170711924576825" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1200.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_2300.stl"/>
+</geometry>
+<material name="_2300_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_2300.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888161871 0.029299104055440446798 0.49228451262579309144" rpy="-1.3962634015954649147 -0.34906585039891668831 -1.5707963267948938935" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_900.stl"/>
+</geometry>
+<material name="_900_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888161871 0.029299104055440446798 0.49228451262579309144" rpy="-1.3962634015954649147 -0.34906585039891668831 -1.5707963267948938935" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_900.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1400.stl"/>
+</geometry>
+<material name="_1400_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1400.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_200.stl"/>
+</geometry>
+<material name="_200_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_200.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_500.stl"/>
+</geometry>
+<material name="_500_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/500.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_400.stl"/>
+</geometry>
+<material name="_400_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_400.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_100.stl"/>
+</geometry>
+<material name="_100_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_100.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_900.stl"/>
+</geometry>
+<material name="_900_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_900.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_700.stl"/>
+</geometry>
+<material name="_1700_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1700.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1700.stl"/>
+</geometry>
+<material name="_1700_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1700.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_2400.stl"/>
+</geometry>
+<material name="_2400_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_2400.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_600.stl"/>
+</geometry>
+<material name="_600_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_600.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1600.stl"/>
+</geometry>
+<material name="_1600_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1600.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888282608 -0.59315328795314092858 0.71883865556472748004" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_900.stl"/>
+</geometry>
+<material name="_900_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888282608 -0.59315328795314092858 0.71883865556472748004" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_900.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1300.stl"/>
+</geometry>
+<material name="_1300_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1300.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.3962634015954424882 -0.34906585039902643386 -1.5707963267949269781" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_900.stl"/>
+</geometry>
+<material name="_900_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.3962634015954424882 -0.34906585039902643386 -1.5707963267949269781" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_900.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_300.stl"/>
+</geometry>
+<material name="_300_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_300.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_2100.stl"/>
+</geometry>
+<material name="_2100_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_2100.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1100.stl"/>
+</geometry>
+<material name="_1100_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1100.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.30903999207516463787 -0.26997758761619961021 0.63839257742294075459" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_2300.stl"/>
+</geometry>
+<material name="_2300_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.30903999207516463787 -0.26997758761619961021 0.63839257742294075459" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_2300.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.085630861665724589127 -0.2329191834637290015 0.74020969889527887808" rpy="1.3962633994746422861 0.34906588344491312759 1.5707963205940285167" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_400.stl"/>
+</geometry>
+<material name="_400_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.085630861665724589127 -0.2329191834637290015 0.74020969889527887808" rpy="1.3962633994746422861 0.34906588344491312759 1.5707963205940285167" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_400.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1400.stl"/>
+</geometry>
+<material name="_1400_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_1400.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.096981483409516677785 -0.44215412215801386253 0.74723110732536091039" rpy="-1.9248112233004655014 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0003.stl"/>
+</geometry>
+<material name="0003_material">
+<color rgba="0.5999999999999999778 1 0.5999999999999999778 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.096981483409516677785 -0.44215412215801386253 0.74723110732536091039" rpy="-1.9248112233004655014 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0003.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.09637532469075402175 -0.45348239958571684438 0.75472334846626376592" rpy="-1.9248112233004657234 -0.16390885824145556837 0.060234426101679013066" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0004.stl"/>
+</geometry>
+<material name="0004_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.09637532469075402175 -0.45348239958571684438 0.75472334846626376592" rpy="-1.9248112233004657234 -0.16390885824145556837 0.060234426101679013066" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0004.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.02939812039994296744 -0.18926208145290759899 1.6627636819833313542" rpy="-0.23928140629306637877 0.81138768796848992348 1.4559160800623676124" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0007.stl"/>
+</geometry>
+<material name="0007_material">
+<color rgba="0.97254901960784312376 0.52941176470588235947 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.02939812039994296744 -0.18926208145290759899 1.6627636819833313542" rpy="-0.23928140629306637877 0.81138768796848992348 1.4559160800623676124" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0007.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.1 -0.1 0.55" rpy="-0.349066 -0.174533 0" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/00.stl"/>
+</geometry>
+<material name="00_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.1 -0.1 0.55" rpy="-0.349066 -0.174533 0" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/00.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.089478118444206500293 -0.11647346825627161171 1.7537349107029751583" rpy="0.43138326689187928009 -0.16390885824145556837 0.060234426101679013066" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0008.stl"/>
+</geometry>
+<material name="0008_material">
+<color rgba="0.87058823529411766273 0.5999999999999999778 0.47058823529411764053 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.089478118444206500293 -0.11647346825627161171 1.7537349107029751583" rpy="0.43138326689187928009 -0.16390885824145556837 0.060234426101679013066" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0008.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/100.stl"/>
+</geometry>
+<material name="100_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/100.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/100.stl"/>
+</geometry>
+<material name="100_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11089667216888310364 -0.28192709194884885138 0.60556158409526428255" rpy="-1.7453292519943293115 0.34906585039886639521 1.570796326794896336" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/100.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.058142295406142380232 -0.27033671546359172577 1.6095855138982304577" rpy="-2.3157847058925060679 0.16390885824161358086 -3.0813582274879407485" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/scr70_pannl_20190126.stl"/>
+</geometry>
+<material name="scr70_pannl_20190126_material">
+<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.058142295406142380232 -0.27033671546359172577 1.6095855138982304577" rpy="-2.3157847058925060679 0.16390885824161358086 -3.0813582274879407485" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/scr70_pannl_20190126.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.056234701095091960132 -0.27371247059657916045 1.6103324151311506629" rpy="0.82580794769728715909 0.16390885824161358086 -3.0813582274879407485" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/scr70_tp_20190126.stl"/>
+</geometry>
+<material name="scr70_tp_20190126_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.056234701095091960132 -0.27371247059657916045 1.6103324151311506629" rpy="0.82580794769728715909 0.16390885824161358086 -3.0813582274879407485" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/scr70_tp_20190126.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10853584142529822121 0.052311788887373616985 0.49820477831935899848" rpy="0.3540439425639974047 0.1643833160667123594 -3.0811804778682958528" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_-b0002_1_1.stl"/>
+</geometry>
+<material name="_-b0002_1_1_material">
+<color rgba="0.97254901960784312376 0.52941176470588235947 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10853584142529822121 0.052311788887373616985 0.49820477831935899848" rpy="0.3540439425639974047 0.1643833160667123594 -3.0811804778682958528" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/_-b0002_1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.56013684055944312767 -0.094000863235888076908 0.64676643898088770346" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/001_7_1.stl"/>
+</geometry>
+<material name="001_7_1_material">
+<color rgba="0.1372549019607843257 0.93333333333333334814 0.89803921568627453897 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.56013684055944312767 -0.094000863235888076908 0.64676643898088770346" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/001_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10658139474192325491 -0.12444109578807507899 0.57336590280137689213" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/00.stl"/>
+</geometry>
+<material name="00_material">
+<color rgba="0.4000000000000000222 0.4000000000000000222 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10658139474192325491 -0.12444109578807507899 0.57336590280137689213" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/00.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10161035075695894203 -0.12165339413611264696 0.57079173474174904612" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/001_7_1.stl"/>
+</geometry>
+<material name="001_7_1_material">
+<color rgba="0.1372549019607843257 0.93333333333333334814 0.89803921568627453897 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10161035075695894203 -0.12165339413611264696 0.57079173474174904612" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/001_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.094396878395840752574 0.080601281396468785201 0.57256714513574125114" rpy="-0.3540439425624830605 -0.1643833160667123594 0.060412175721497263226" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/60x40000_7_1.stl"/>
+</geometry>
+<material name="60x40000_7_1_material">
+<color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.094396878395840752574 0.080601281396468785201 0.57256714513574125114" rpy="-0.3540439425624830605 -0.1643833160667123594 0.060412175721497263226" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/60x40000_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.088980138665294056244 -0.088435484990416049489 0.66311835354214221372" rpy="-2.7854500210908068603 0.16390885824145534633 -3.0813582274881148315" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0012_13_1.stl"/>
+</geometry>
+<material name="0012_13_1_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.088980138665294056244 -0.088435484990416049489 0.66311835354214221372" rpy="-2.7854500210908068603 0.16390885824145534633 -3.0813582274881148315" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0012_13_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.078697008374963406396 0.072826794099763503265 0.66508909822655848387" rpy="-1.9248112233004655014 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0009_8_1.stl"/>
+</geometry>
+<material name="0009_8_1_material">
+<color rgba="0.97254901960784312376 0.52941176470588235947 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.078697008374963406396 0.072826794099763503265 0.66508909822655848387" rpy="-1.9248112233004655014 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0009_8_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.24958666740915066984 -0.27501164679101652855 0.56371986169272858547" rpy="1.3960366205390526417 0.34895589366030455025 1.5701331631936725763" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0020_1_1.stl"/>
+</geometry>
+<material name="0020_1_1_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.24958666740915066984 -0.27501164679101652855 0.56371986169272858547" rpy="1.3960366205390526417 0.34895589366030455025 1.5701331631936725763" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0020_1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.26579813974741894889 -0.22474257071560457821 0.70190979676453457703" rpy="1.2168796706221038928 -0.16412820266640457123 0.059632773388374235579" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0017_1_1.stl"/>
+</geometry>
+<material name="0017_1_1_material">
+<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.26579813974741894889 -0.22474257071560457821 0.70190979676453457703" rpy="1.2168796706221038928 -0.16412820266640457123 0.059632773388374235579" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0017_1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.30025317783037780428 -0.25515740511411283409 0.61840956741280694864" rpy="-2.7876759974170002288 0.16412820266640457123 -3.0819598802014191996" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/amps-605__1_1.stl"/>
+</geometry>
+<material name="amps-605__1_1_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.30025317783037780428 -0.25515740511411283409 0.61840956741280694864" rpy="-2.7876759974170002288 0.16412820266640457123 -3.0819598802014191996" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/amps-605__1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10370081852484742957 -0.12369140942496795188 0.56625349725621243469" rpy="-0.35019945964451998366 -0.13333278906306805789 0.048838216442983292676" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0012_13_1.stl"/>
+</geometry>
+<material name="0012_13_1_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10370081852484742957 -0.12369140942496795188 0.56625349725621243469" rpy="-0.35019945964451998366 -0.13333278906306805789 0.048838216442983292676" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0012_13_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.072536938278620177734 -0.24515015223729780258 0.64585125415827504547" rpy="1.9247938702671132383 0.16394762947951049825 -3.0814645605829178443" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0017_1_1.stl"/>
+</geometry>
+<material name="0017_1_1_material">
+<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.072536938278620177734 -0.24515015223729780258 0.64585125415827504547" rpy="1.9247938702671132383 0.16394762947951049825 -3.0814645605829178443" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0017_1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0070093755555239445343 -0.29051880068086455289 0.52121548777488613258" rpy="1.7453693396478007216 -0.34904642689563614155 -1.5709135383799255337" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0020_1_1.stl"/>
+</geometry>
+<material name="0020_1_1_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0070093755555239445343 -0.29051880068086455289 0.52121548777488613258" rpy="1.7453693396478007216 -0.34904642689563614155 -1.5709135383799255337" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0020_1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.074519775867995963203 -0.27773047960867636164 0.55630187824729560031" rpy="2.7875951101175768798 -0.16394762947951049825 0.060128093006875528437" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/amps-605__1_1.stl"/>
+</geometry>
+<material name="amps-605__1_1_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.074519775867995963203 -0.27773047960867636164 0.55630187824729560031" rpy="2.7875951101175768798 -0.16394762947951049825 0.060128093006875528437" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/amps-605__1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10658139474192325491 -0.12444109578807507899 0.57336590280137689213" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/00.stl"/>
+</geometry>
+<material name="00_material">
+<color rgba="0.4000000000000000222 0.4000000000000000222 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10658139474192325491 -0.12444109578807507899 0.57336590280137689213" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/00.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.11665812337528053133 -0.60450249867656791203 0.679750593413900428" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/50ah0001.stl"/>
+</geometry>
+<material name="50ah0001_material">
+<color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.11665812337528053133 -0.60450249867656791203 0.679750593413900428" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/50ah0001.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.223468040503322668 -0.57619898684694836888 0.7634179101899543074" rpy="-2.2519483422309303222 0.11401906413635001791 -2.9450903488627004911" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/02_dabai_dc2_front_hsg.stl"/>
+</geometry>
+<material name="02_dabai_dc2_front_hsg_material">
+<color rgba="0.82352941176470584317 0.82352941176470584317 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.223468040503322668 -0.57619898684694836888 0.7634179101899543074" rpy="-2.2519483422309303222 0.11401906413635001791 -2.9450903488627004911" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/02_dabai_dc2_front_hsg.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.223468040503322668 -0.57619898684694836888 0.7634179101899543074" rpy="-2.2519483422309303222 0.11401906413635001791 -2.9450903488627004911" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/02_dabai_dc2_glass.stl"/>
+</geometry>
+<material name="02_dabai_dc2_glass_material">
+<color rgba="0.82352941176470584317 0.82352941176470584317 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.223468040503322668 -0.57619898684694836888 0.7634179101899543074" rpy="-2.2519483422309303222 0.11401906413635001791 -2.9450903488627004911" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/02_dabai_dc2_glass.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.010806632433599416832 -0.59038156226160609652 0.72461926956381428333" rpy="-2.2966926433235133054 0.21076516942417944378 3.0633664167776872844" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/02_dabai_dc2_front_hsg.stl"/>
+</geometry>
+<material name="02_dabai_dc2_front_hsg_material">
+<color rgba="0.82352941176470584317 0.82352941176470584317 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.010806632433599416832 -0.59038156226160609652 0.72461926956381428333" rpy="-2.2966926433235133054 0.21076516942417944378 3.0633664167776872844" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/02_dabai_dc2_front_hsg.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.010806632433599416832 -0.59038156226160609652 0.72461926956381428333" rpy="-2.2966926433235133054 0.21076516942417944378 3.0633664167776872844" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/02_dabai_dc2_glass.stl"/>
+</geometry>
+<material name="02_dabai_dc2_glass_material">
+<color rgba="0.82352941176470584317 0.82352941176470584317 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.010806632433599416832 -0.59038156226160609652 0.72461926956381428333" rpy="-2.2966926433235133054 0.21076516942417944378 3.0633664167776872844" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/02_dabai_dc2_glass.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10658139474192325491 -0.12444109578807507899 0.57336590280137689213" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/00_40_6_1.stl"/>
+</geometry>
+<material name="00_40_6_1_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10658139474192325491 -0.12444109578807507899 0.57336590280137689213" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/00_40_6_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.052539434611331925495 -0.51148027815975471988 0.69410404442029050021" rpy="-2.9669440555254142922 -0.34900978832855933387 -1.5711345576722868245" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/40001_8_1.stl"/>
+</geometry>
+<material name="40001_8_1_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.052539434611331925495 -0.51148027815975471988 0.69410404442029050021" rpy="-2.9669440555254142922 -0.34900978832855933387 -1.5711345576722868245" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/40001_8_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.031834881507964263303 0.038208902667800088981 0.50565352640451977084" rpy="0.3540148965055689434 0.16390885824145529082 -3.0813582274881148315" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0004_1_1.stl"/>
+</geometry>
+<material name="0004_1_1_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031834881507964263303 0.038208902667800088981 0.50565352640451977084" rpy="0.3540148965055689434 0.16390885824145529082 -3.0813582274881148315" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0004_1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.12727993146787930367 -0.18952057599156002521 0.47213201016924444264" rpy="-1.3962634015954638045 -0.34906585039886639521 -1.57079632679489678" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/000_1_1.stl"/>
+</geometry>
+<material name="000_1_1_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.12727993146787930367 -0.18952057599156002521 0.47213201016924444264" rpy="-1.3962634015954638045 -0.34906585039886639521 -1.57079632679489678" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/000_1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.13110597964913481284 -0.19694193341551285981 0.45174199822523219972" rpy="-1.3962634015954638045 -0.34906585039886639521 -1.57079632679489678" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/000_1_1.stl"/>
+</geometry>
+<material name="000_1_1_material">
+<color rgba="0.61568627450980395466 0.81176470588235294379 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13110597964913481284 -0.19694193341551285981 0.45174199822523219972" rpy="-1.3962634015954638045 -0.34906585039886639521 -1.57079632679489678" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/000_1_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.2625990463525746943 -0.49247510228331187188 0.74632033599358160725" rpy="-2.9669440555254142922 -0.34900978832855933387 -1.5711345576722868245" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/40001_8_1.stl"/>
+</geometry>
+<material name="40001_8_1_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.2625990463525746943 -0.49247510228331187188 0.74632033599358160725" rpy="-2.9669440555254142922 -0.34900978832855933387 -1.5711345576722868245" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/40001_8_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.052556669460986360498 -0.022499070569444890033 0.51612620573861078821" rpy="2.9670333878211971879 0.34905308835813919632 1.5707193107726846737" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/40001_8_1.stl"/>
+</geometry>
+<material name="40001_8_1_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.052556669460986360498 -0.022499070569444890033 0.51612620573861078821" rpy="2.9670333878211971879 0.34905308835813919632 1.5707193107726846737" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/40001_8_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.26257655689717357417 -0.017005636536309130108 0.57325938316463653788" rpy="2.9669440555254142922 0.34900978832855933387 1.5704580959175062915" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/40001_8_1.stl"/>
+</geometry>
+<material name="40001_8_1_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.26257655689717357417 -0.017005636536309130108 0.57325938316463653788" rpy="2.9669440555254142922 0.34900978832855933387 1.5704580959175062915" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/40001_8_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.1111653805803881484 -0.1305135414303748298 0.54791058231780342958" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0003_27_1.stl"/>
+</geometry>
+<material name="0003_27_1_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.1111653805803881484 -0.1305135414303748298 0.54791058231780342958" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/0003_27_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10948390714754491215 -0.55951633092326502616 0.71420294409956019965" rpy="0.3540148965055689434 0.16390885824145529082 -3.0813582274881148315" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/brep_1-2332_7_1.stl"/>
+</geometry>
+<material name="brep_1-2332_7_1_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10948390714754491215 -0.55951633092326502616 0.71420294409956019965" rpy="0.3540148965055689434 0.16390885824145529082 -3.0813582274881148315" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/brep_1-2332_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.1465449555868801601 -0.29955220959471812181 0.39591097324621232767" rpy="-1.9248112233004655014 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/brep_1-2333_15_1.stl"/>
+</geometry>
+<material name="brep_1-2333_15_1_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.1465449555868801601 -0.29955220959471812181 0.39591097324621232767" rpy="-1.9248112233004655014 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/brep_1-2333_15_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0038186543980699705347 0.063842727869835552701 1.1711283187170997699" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/manifold_solid_brep_59609_a_7_1.stl"/>
+</geometry>
+<material name="manifold_solid_brep_59609_a_7_1_material">
+<color rgba="0.4000000000000000222 0.4000000000000000222 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0038186543980699705347 0.063842727869835552701 1.1711283187170997699" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/manifold_solid_brep_59609_a_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0038186543980699705347 0.063842727869835552701 1.1711283187170997699" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/manifold_solid_brep_61418_a_7_1.stl"/>
+</geometry>
+<material name="manifold_solid_brep_61418_a_7_1_material">
+<color rgba="0.4000000000000000222 0.4000000000000000222 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0038186543980699705347 0.063842727869835552701 1.1711283187170997699" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/manifold_solid_brep_61418_a_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0056959396954029406501 0.06994692061015930773 1.1802364642018852159" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/brep_2-2325_7_1.stl"/>
+</geometry>
+<material name="brep_2-2325_7_1_material">
+<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0056959396954029406501 0.06994692061015930773 1.1802364642018852159" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/brep_2-2325_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.12748686884735122016 0.033697614825317953602 0.48156364732398748707" rpy="-2.6964368240027494217 1.1821334150666029661 -1.0947897205739907101" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/sensor_d16x7_1_1_2_a_7_1.stl"/>
+</geometry>
+<material name="sensor_d16x7_1_1_2_a_7_1_material">
+<color rgba="0 0.5999999999999999778 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.12748686884735122016 0.033697614825317953602 0.48156364732398748707" rpy="-2.6964368240027494217 1.1821334150666029661 -1.0947897205739907101" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/sensor_d16x7_1_1_2_a_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.097942636119111914361 0.031915879578586651977 0.47666836996614675437" rpy="-2.6964368240027494217 1.1821334150666029661 -1.0947897205739907101" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/sensor_d16x7_1_1_2_a_7_1.stl"/>
+</geometry>
+<material name="sensor_d16x7_1_1_2_a_7_1_material">
+<color rgba="0 0.5999999999999999778 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.097942636119111914361 0.031915879578586651977 0.47666836996614675437" rpy="-2.6964368240027494217 1.1821334150666029661 -1.0947897205739907101" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/sensor_d16x7_1_1_2_a_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0038186543980699705347 0.063842727869835552701 1.1711283187170997699" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/manifold_solid_brep_59609_a_7_1.stl"/>
+</geometry>
+<material name="manifold_solid_brep_59609_a_7_1_material">
+<color rgba="0.4000000000000000222 0.4000000000000000222 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0038186543980699705347 0.063842727869835552701 1.1711283187170997699" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/manifold_solid_brep_59609_a_7_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0038186543980699705347 0.063842727869835552701 1.1711283187170997699" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/manifold_solid_brep_61418_a_7_1.stl"/>
+</geometry>
+<material name="manifold_solid_brep_61418_a_7_1_material">
+<color rgba="0.4000000000000000222 0.4000000000000000222 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0038186543980699705347 0.063842727869835552701 1.1711283187170997699" rpy="-0.3540148965055689434 -0.16390885824145529082 0.060234426101678575916" />
+<geometry>
+<mesh filename="package://quadruped_description/quadruped/manifold_solid_brep_61418_a_7_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+
+</robot>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<robot name="simple_stl_loader">
+
+  <!-- Define the world link -->
+  <link name="world"/>
+  
+  <!-- Link definition -->
+  <link name="base_link">
+    
+    <!-- Visual representation of the STL -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="ImageToStl.com_bigdog+3d+with+housing+and+pillar+for+the+display.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1.0"/>
+      </material>
+    </visual>
+
+    <!-- Collision representation of the STL -->
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="ImageToStl.com_bigdog+3d+with+housing+and+pillar+for+the+display.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    
+  </link>
+  
+  <!-- Root joint to connect the link to the world -->
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Rear left wheel -->
+  <link name="rear_left_wheel">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+  </link>
+  <joint name="rear_left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_left_wheel"/>
+    <origin xyz="0.5 0.3 0.0" rpy="0 0 1.5708"/> <!-- Rotate the wheel 90 degrees around the Z-axis -->
+    <axis xyz="1 0 0"/> <!-- Axis aligned with the X-axis for proper rotation -->
+  </joint>
+
+  <!-- Front left wheel -->
+  <link name="front_left_wheel">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+  </link>
+  <joint name="front_left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="front_left_wheel"/>
+    <origin xyz="0.5 -0.3 0.0" rpy="0 0 1.5708"/> <!-- Rotate the wheel 90 degrees around the Z-axis -->
+    <axis xyz="1 0 0"/> <!-- Axis aligned with the X-axis for proper rotation -->
+  </joint>
+
+  <!-- Rear right wheel -->
+  <link name="rear_right_wheel">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+  </link>
+  <joint name="rear_right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_right_wheel"/>
+    <origin xyz="-0.5 0.3 0.0" rpy="0 0 1.5708"/> <!-- Rotate the wheel 90 degrees around the Z-axis -->
+    <axis xyz="1 0 0"/> <!-- Axis aligned with the X-axis for proper rotation -->
+  </joint>
+
+  <!-- Front right wheel -->
+  <link name="front_right_wheel">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+  </link>
+  <joint name="front_right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="front_right_wheel"/>
+    <origin xyz="-0.5 -0.3 0.0" rpy="0 0 1.5708"/> <!-- Rotate the wheel 90 degrees around the Z-axis -->
+    <axis xyz="1 0 0"/> <!-- Axis aligned with the X-axis for proper rotation -->
+  </joint>
+  
+</robot>
